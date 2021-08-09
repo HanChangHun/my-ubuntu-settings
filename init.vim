@@ -28,22 +28,20 @@ if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
 endif
 
 call plug#begin()
+Plug 'dracula/vim'
 Plug 'preservim/nerdtree'
 Plug 'majutsushi/tagbar'
-Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'fholgado/minibufexpl.vim'
 call plug#end()
 
-colorscheme onedark
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'default'
-let g:lightline = {
-  \ 'colorscheme': 'onedark',
-  \ }
+
+color dracula
 
 nnoremap <F9> :MBEbp<CR>
 nnoremap <F10> :MBEbn<CR>
