@@ -35,6 +35,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'fholgado/minibufexpl.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
