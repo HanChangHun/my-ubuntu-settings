@@ -34,6 +34,7 @@ Plug 'majutsushi/tagbar'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'fholgado/minibufexpl.vim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
