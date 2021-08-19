@@ -23,3 +23,13 @@ alias tmux="TERM=xterm-256color tmux"
 ```sh
 echo 'set completion-ignore-case On' | sudo tee -a /etc/inputrc
 ```
+
+## apt list
+
+```sh
+sed -i 's/kr.archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+sed -i 's/us.archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+sed -i 's/security.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+sed -i 's/extras.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+```
