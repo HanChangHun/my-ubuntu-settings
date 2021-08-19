@@ -17,3 +17,9 @@ To install tmux plugins, press Ctrl+B and then I.
 alias vi='nvim'
 alias tmux="TERM=xterm-256color tmux"
 ```
+
+## inputrc
+
+```sh
+echo 'set completion-ignore-case On' | sudo tee -a /etc/inputrc
+```
