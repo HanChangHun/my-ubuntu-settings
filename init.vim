@@ -36,6 +36,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'fholgado/minibufexpl.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
