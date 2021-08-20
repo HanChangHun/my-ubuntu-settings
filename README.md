@@ -16,9 +16,19 @@ To install tmux plugins, press Ctrl+B and then I.
 
 ## .bashrc
 
+at the top of .bashrc
+```sh
+export TERM=xterm-256color
+```
+
 ```sh
 alias vi='nvim'
 alias tmux="TERM=xterm-256color tmux"
+```
+
+if use vnc
+```
+alias my_vncserver="vncserver --localhost no --geometry 1920x1080"
 ```
 
 ## inputrc
