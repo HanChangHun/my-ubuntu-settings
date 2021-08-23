@@ -2,6 +2,12 @@
 
 ## Apply tmux settings
 
+Install tpm
+
+```sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 Open tmux and press Ctrl+B and then : to bring up a command prompt, and typing:
 
 ```sh
