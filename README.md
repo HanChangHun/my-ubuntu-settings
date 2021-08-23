@@ -22,10 +22,20 @@ To install tmux plugins, press Ctrl+B and then I.
 
 ## .bashrc
 
+set dracula theme
+```sh
+sudo apt-get install dconf-cli  # install dcong-cli
+git clone https://github.com/dracula/gnome-terminal
+cd gnome-terminal
+./install.sh
+```
+
 at the top of .bashrc
 ```sh
 export TERM=xterm-256color
 ```
+
+add alias
 
 ```sh
 alias vi='nvim'
