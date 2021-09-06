@@ -12,3 +12,4 @@
 - @lckr/jupyterlab_variableinspector
 - @ryantam626/jupyterlab_code_formatter
 - @krassowski/jupyterlab_lsp
+- jupyterlab_sublime
